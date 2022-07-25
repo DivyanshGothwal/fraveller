@@ -1,2 +1,2 @@
-# zuava-web-ui
-Frontend application for Zuava 
+# fraveller-web-ui
+Frontend application for fraveller 
