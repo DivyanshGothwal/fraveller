@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist/out-ts",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "paths": {
+      "@zuava/web-app-ui/component":[
+        "components/public_api.ts"
+      ],
+      "@zuava/web-app-ui/common":[
+        "common/public_api.ts"
+      ],
+      "@zuava/web-app-ui/routes":[
+        "routes/public_api.ts"
+      ],
+      "@zuava/web-app-ui/pages":[
+        "pages/zuava/public_api.ts"
+      ]
+    }
+  },
+  "include": [
+    "**/*.js",
+    "**/*.tsx",
+    "**/*.ts",
+    "**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules/*"
+  ]
+}
